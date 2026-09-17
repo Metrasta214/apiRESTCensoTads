@@ -1,0 +1,99 @@
+{
+  "info": {
+    "_postman_id": "d5848bb6-63ce-45be-a973-0208c9bcc42e",
+    "name": "COLLECTIONS",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "36799495"
+  },
+  "item": [
+    {
+      "name": "GET",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:44300/api/Censo",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "44300",
+          "path": [
+            "api",
+            "Censo"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PUT",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:44325/api/Censo?posicion=2",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "44325",
+          "path": [
+            "api",
+            "Censo"
+          ],
+          "query": [
+            {
+              "key": "posicion",
+              "value": "2"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET Censo ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:44325/api/Censo/3",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "44325",
+          "path": [
+            "api",
+            "Censo",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "DELETE",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    }
+  ]
+}
